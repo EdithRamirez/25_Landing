@@ -1,1 +1,65 @@
 /* Tu CSS va aqui */
+/*estlo logo*/
+.logo{
+	max-width: 100%;
+	height: auto;
+}
+/*estilos de menu*/
+ul{
+	margin: 2% 10%;
+	text-align: right;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	margin:  0 3%;
+}
+/*estilo enlace*/
+ul li a{
+	color: #000;
+	text-decoration: none;
+}
+/*fondo gris*/
+section{
+	background-color: #868484;
+}
+/*texto color blanco*/
+.text-blanco{
+	color: #fff;
+}
+h1{
+	font-size: 3em;
+}
+/*formulario*/
+form{
+	background-color: rgba(255,255,255,.2);
+	width: 50%;
+	height: 100%;
+	border-radius: 8px;
+	margin: 10%;
+	padding: 3%;
+}
+label{
+	font-weight: bold;
+	text-align: center;
+	padding: 0 20%;
+}
+input{
+	display: block;
+	cursor: pointer;
+	margin: 3% 10%;
+	width: 80%;
+	padding: 2% 0;
+}
+#btn-azul{
+	background-color: #2eccfa;
+	color: #fff;
+	border: none;
+}
+span{
+	color: #08118B;
+}
+/*padding*/
+.pd-5{
+	padding-top: 5%;
+}
