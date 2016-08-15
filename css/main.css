@@ -1,7 +1,7 @@
 /* Tu CSS va aqui */
 /*estlo logo*/
 .logo{
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
 }
 /*estilos de menu*/
@@ -30,6 +30,12 @@ section{
 h1{
 	font-size: 3em;
 }
+/*parrafo alineado*/
+p{
+	text-align: justify;
+	padding: 3% 0;
+}
+
 /*formulario*/
 form{
 	background-color: rgba(255,255,255,.2);
@@ -46,7 +52,6 @@ label{
 }
 input{
 	display: block;
-	cursor: pointer;
 	margin: 3% 10%;
 	width: 80%;
 	padding: 2% 0;
@@ -55,11 +60,22 @@ input{
 	background-color: #2eccfa;
 	color: #fff;
 	border: none;
+	cursor: pointer;
 }
 span{
 	color: #08118B;
 }
-/*padding*/
+/*margin y padding*/
+.margin-30{
+	margin-left: 30%;
+}
+
+.pdl-10{
+	padding-left: 10%;
+}
 .pd-5{
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
+
+/*media queries*/
